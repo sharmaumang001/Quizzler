@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quizzler</string>
+    
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="initial_score">Score 0/13</string>
+
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="correct_toast">You got it!</string>
+
+    <string name="question_1">Do you know UMANG SHARMA?</string>
+    <string name="question_2">Is Umang sharma a good person?</string>
+    <string name="question_3">Do he loves  drinking CHAI?</string>
+    <string name="question_4">was Umang sharma born in 2001</string>
+    <string name="question_5">Is umang sharma a innocent boy?</string>
+    <string name="question_6">is umang sharma funnny?</string>
+    <string name="question_7">Do he love you?</string>
+    <string name="question_8">Do he likes cricket?</string>
+    <string name="question_9">Do he love F.R.I.E.N.D.S.</string>
+    <string name="question_10">Do u like being with him?</string>
+</resources>

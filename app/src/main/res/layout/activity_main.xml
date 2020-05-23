@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2980b9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/questions"
+        android:layout_width="363dp"
+        android:layout_height="159dp"
+        android:text="Do you know  UMANG SHARMA???"
+        android:textAlignment="center"
+        android:textColor="#F3F1F1"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="411dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="492dp"
+        android:background="#7A7777"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questions"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/TRUE"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="228dp"
+        android:background="#2ecc71"
+        android:text="YES"
+        android:textColor="#101010"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/Score"
+        app:layout_constraintEnd_toStartOf="@+id/FALSE"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questions"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <Button
+        android:id="@+id/FALSE"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="228dp"
+        android:background="#c0392b"
+        android:text="NO"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questions"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="224dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="380dp"
+        android:background="#2980b9"
+        android:text="SCORE       0/10"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questions"
+        app:layout_constraintVertical_bias="0.845" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
